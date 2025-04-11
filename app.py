@@ -31,7 +31,9 @@ st.markdown("---")
 
 # Боковая панель с навигацией
 with st.sidebar:
-    st.image("https://www.pngall.com/wp-content/uploads/5/Machine-Learning-PNG-File.png", width=200)
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        st.image("logo.png", width=100)
     st.markdown("## Навигация")
     selected = option_menu(
         menu_title=None,
