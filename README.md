@@ -43,15 +43,15 @@ predictive_maintenance_project/
 
 ## Установка и запуск
 
-1. Клонируйте репозиторий:
-git clone https://github.com/ilinAR4/predictive_maintenance_project
-cd predictive_maintenance_project
+1. Клонируйте репозиторий:  
+git clone https://github.com/ilinAR4/predictive_maintenance_project  
+cd predictive_maintenance_project  
 
-2. Установите зависимости:
-pip install -r requirements.txt
+2. Установите зависимости:  
+pip install -r requirements.txt  
 
-3. Запустите приложение:
-streamlit run app.py
+3. Запустите приложение:  
+streamlit run app.py  
 
 
 
