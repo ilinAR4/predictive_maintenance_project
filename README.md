@@ -36,6 +36,7 @@ predictive_maintenance_project/
 ├── analysis_and_model.py               # Основная страница с анализом данных и моделью  
 ├── presentation.py                     # Страница с презентацией проекта  
 ├── requirements.txt                    # Файл с зависимостями для установки библиотек  
+├── model_handler.py                    # Вспомогательный файл для работы с моделями  
 ├── data/                               # Папка с данными  
 │   └── predictive_maintenance.csv      # Датасет  
 ├── models/                             # Папка для сохранения обученных моделей  
