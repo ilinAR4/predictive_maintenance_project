@@ -31,16 +31,15 @@
   - RNF: Случайный отказ
 
 ## Структура репозитория
-predictive_maintenance_project/
-│
-├── app.py                        # Основной файл Streamlit-приложения (entrypoint)
-├── analysis_and_model.py         # Основная страница с анализом данных и моделью
-├── presentation.py               # Страница с презентацией проекта
-├── requirements.txt              # Файл с зависимостями для установки библиотек
-├── data/                         # Папка с данными
-│   └── predictive_maintenance.csv # Датасет
-├── models/                       # Папка для сохранения обученных моделей
-└── README.md                     # Описание проекта
+predictive_maintenance_project/  
+├── app.py # Основной файл Streamlit-приложения (entrypoint)  
+├── analysis_and_model.py # Основная страница с анализом данных и моделью  
+├── presentation.py # Страница с презентацией проекта  
+├── requirements.txt # Файл с зависимостями для установки библиотек  
+├── data/ # Папка с данными  
+│   └── predictive_maintenance.csv # Датасет  
+├── models/ # Папка для сохранения обученных моделей  
+└── README.md # Описание проекта
 
 ## Установка и запуск
 
