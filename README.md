@@ -37,6 +37,8 @@ predictive_maintenance_project/
 ├── presentation.py                     # Страница с презентацией проекта  
 ├── requirements.txt                    # Файл с зависимостями для установки библиотек  
 ├── model_handler.py                    # Вспомогательный файл для работы с моделями  
+├── ligo.png                            # Логотип для презеньации
+├── screen1.jpg                         # Скриншот для презентации
 ├── data/                               # Папка с данными  
 │   └── predictive_maintenance.csv      # Датасет  
 ├── models/                             # Папка для сохранения обученных моделей  
