@@ -463,8 +463,7 @@ def show_models():
         def highlight_best(row):
             return ['background-color: #90EE90' if row.name == comparison_df[comparison_df['Лучшая']].index[0] else '' for _ in row]
         
-        st.dataframe(formatted_df.style.apply(highlight_best, axis=1).hide_columns(['Лучшая']))
-        
+        st.dataframe(formatted_df.style.apply(highlight_best, axis=1).hide(axis="columns", subset=['Лучшая']))
         # Матрица ошибок для выбранной модели
         st.subheader("Матрица ошибок")
         
